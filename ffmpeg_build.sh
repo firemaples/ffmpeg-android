@@ -22,6 +22,16 @@ make clean
 --cpu="$CPU" \
 --enable-runtime-cpudetect \
 --sysroot="$NDK_SYSROOT" \
+--enable-small \
+--disable-encoders \
+--enable-encoder=libx264 \
+--disable-muxers \
+--enable-muxer=mp4 \
+--disable-filters \
+--enable-filter=scale \
+--disable-protocols \
+--enable-protocol=file \
+--disable-devices \
 --enable-pic \
 --enable-libx264 \
 --enable-libass \
