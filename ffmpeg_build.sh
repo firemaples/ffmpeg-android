@@ -23,8 +23,6 @@ make clean
 --enable-runtime-cpudetect \
 --sysroot="$NDK_SYSROOT" \
 --enable-small \
---disable-muxers \
---enable-muxer=mp4 \
 --disable-protocols \
 --enable-protocol=file \
 --disable-devices \
